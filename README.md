@@ -17,5 +17,4 @@ A medida que avanço nos estudos, adiciono mais códigos e comentários.
 
 ## Como rodar
 ```bash
-python main.py
-´´´bash
+  python main.py
