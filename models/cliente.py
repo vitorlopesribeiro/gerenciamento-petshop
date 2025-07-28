@@ -13,7 +13,12 @@ class Cliente:
 
     def get_cpf(self):
         return self.__cpf 
+        
+    def get_name(self):
+        return self.__nome
 
     def __str__(self):
-        return f"Cliente: {self.__nome} - CPF: {self.__cpf} - Pets: {self.__pets}"
+        pets_str = ",".join([str(pet) for pet in self.__pets])
+        return f"Cliente: {self.__nome} - CPF: {self.__cpf} - Pets: [{pets_str}]"
+
         
