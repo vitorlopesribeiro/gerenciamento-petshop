@@ -5,4 +5,4 @@ class Servico:
         self.__valor = valor
 
     def __str__(self):
-        return f"Tipo de serviço: {self.__tipo} - Valor do serviço: R${self.__valor:.2f}"
+        return f"{self.__tipo} - R$ {self.__valor:.2f}"
