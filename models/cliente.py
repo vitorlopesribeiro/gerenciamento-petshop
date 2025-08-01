@@ -11,6 +11,7 @@ class Cliente:
     def listar_pets(self):
         return [str(pet) for pet in self.__pets]
     
+
     def get_nome(self):
         return self.__nome
     
