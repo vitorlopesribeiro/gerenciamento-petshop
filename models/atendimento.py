@@ -1,9 +1,8 @@
-from cliente import Cliente
 from datetime import date
 
 class Atendimento:
 
-    def __init__(self, cliente, pet, servico, data="30/07/2025"):
+    def __init__(self, cliente, pet, servico, data=None):
         self.cliente = cliente
         self.pet = pet
         self.servico = servico

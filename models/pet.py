@@ -12,6 +12,9 @@ class Pet:
     def listar_servico(self):
         return [str(s) for s in self.__historico_de_servico]
     
+    def listar_servicos_numerados(self):
+        return[f"{i+1} - {str(s)}" for i,s in enumerate(self.__historico_de_servico)]
+    
     def __str__(self):
         return f"Pet: {self.__nome}({self.__especie}, {self.__idade} anos)"
 
