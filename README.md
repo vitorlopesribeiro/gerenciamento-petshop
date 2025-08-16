@@ -1,4 +1,4 @@
-# 🐾 PetShop - Sistema POO em Python (Versão Final)
+# 🐾 PetShop - Sistema POO em Python
 
 Sistema completo de gerenciamento de um PetShop, desenvolvido em Python, aplicando Programação Orientada a Objetos (POO).  
 Projeto criado com o objetivo de demonstrar o conhecimento em POO usando Python.
